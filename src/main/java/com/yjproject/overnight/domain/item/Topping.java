@@ -10,6 +10,5 @@ import javax.persistence.Entity;
 @Getter @Setter
 @DiscriminatorValue("T")
 public class Topping extends Item{
-
     private ToppingType toppingType;
 }
