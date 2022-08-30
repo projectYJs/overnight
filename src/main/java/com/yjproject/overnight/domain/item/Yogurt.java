@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 @DiscriminatorValue("Y")
 public class Yogurt extends Item{
 
-    private String plainYogurt;
-    private String greekYogurt;
+
+
+    private YogurtType yogurtType;
 }

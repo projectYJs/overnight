@@ -10,7 +10,6 @@ import javax.persistence.Entity;
 @Getter @Setter
 @DiscriminatorValue("T")
 public class Topping extends Item{
-    private String fruits;
-    private String nuts;
-    private String syrups;
+
+    private ToppingType toppingType;
 }

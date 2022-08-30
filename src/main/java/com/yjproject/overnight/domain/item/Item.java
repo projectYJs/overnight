@@ -14,6 +14,7 @@ public abstract class Item {
     private Long id;
 
     private String name;
+    private int calorie;
     private int price;
     private int stockQuantity;
 
