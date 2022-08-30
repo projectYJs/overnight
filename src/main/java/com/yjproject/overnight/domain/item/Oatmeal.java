@@ -10,7 +10,6 @@ import javax.persistence.Entity;
 @DiscriminatorValue("O")
 @Getter @Setter
 public class Oatmeal extends Item{
-    private String rolledOat;
-    private String instantOat;
+    private OatmealType oatmealType;
 
 }
