@@ -25,4 +25,6 @@ public class Product {
     @ManyToOne
     @JoinColumn(name = "topping_item_id")
     private Topping topping;
+
+    private Integer price;
 }

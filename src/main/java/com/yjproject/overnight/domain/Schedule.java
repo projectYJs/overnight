@@ -17,6 +17,7 @@ public class Schedule {
 
     private LocalDate date;
 
+    //06:00 07:00
     private String reserveTime;
 
     private Integer amount;
