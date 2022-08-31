@@ -1,4 +1,4 @@
-package com.yjproject.overnight.respository;
+package com.yjproject.overnight.repository;
 
 import com.yjproject.overnight.domain.Schedule;
 import lombok.RequiredArgsConstructor;

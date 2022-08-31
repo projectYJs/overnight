@@ -1,4 +1,4 @@
-package com.yjproject.overnight.respository;
+package com.yjproject.overnight.repository;
 
 import com.yjproject.overnight.domain.Schedule;
 import org.assertj.core.api.Assertions;
@@ -11,8 +11,6 @@ import javax.transaction.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class ScheduleRepositoryTest {
