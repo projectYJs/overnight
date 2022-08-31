@@ -20,6 +20,7 @@ public class SampleMaker {
     }
 
     @Component
+
     @RequiredArgsConstructor
     @Transactional
     static class MakeSample {
